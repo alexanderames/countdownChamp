@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App.jsx';
 
 ReactDOM.render(
-	<div>Coundown Champ</div>, document.getElementById('root')
+	<App></App>,
+	document.getElementById('root')
 );
